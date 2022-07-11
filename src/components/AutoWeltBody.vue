@@ -19,11 +19,8 @@
         Корисникот на лизинг е обврзан да го осигура возилото со целосно КАСКО осигурување за целото времетраење на лизингот, вклучувајќи и додаток во случај на кражба и проневера.
       </p>
     </div>
-    <!-- Fixed Lizing List-->
     <LizingList/>
-    <!--Fixed FizickiLica List-->
     <FizickiLicaList/>
-    <!--FixedPravniLica List-->
     <hr class="col-10 mx-auto">
     <PravniLicaList/>
     <hr class="col-10 mx-auto">
