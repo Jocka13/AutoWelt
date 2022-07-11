@@ -1,8 +1,8 @@
 <template>
   <div class="row">
     <h2 class="col-10 mx-auto fw-bold">Чекори за купување возило на лизинг:</h2>
-    <ul class="col-9 mx-auto mt-2" v-for="id in objectList">
-      <li class="list-unstyled">{{id.id}}.{{id.title}}</li>
+    <ul class="col-10 mx-auto mt-2" v-for="id in objectList">
+      <li class="list-unstyled mb-0">{{id.id}}.{{id.title}}</li>
       <p class="mb-0">{{id.innerBody}}</p>
     </ul>
   </div>

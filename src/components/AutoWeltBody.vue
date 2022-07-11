@@ -19,27 +19,10 @@
         Корисникот на лизинг е обврзан да го осигура возилото со целосно КАСКО осигурување за целото времетраење на лизингот, вклучувајќи и додаток во случај на кражба и проневера.
       </p>
     </div>
+    <!-- Fixed Lizing List-->
     <LizingList/>
-    <div class="row">
-      <div class="col-10 mx-auto">
-        <h2 class="fw-bold">Документација со барање за лизинг: ФИЗИЧКИ ЛИЦА</h2>
-        <p>Со пополнето барање за одобрување на лизинг, <strong>профактура на добавувачот</strong> и <strong>прифатена лизинг понуда</strong>, потребно е да се приложат и:</p>
-      </div>
-      <ul class="col-9 mx-auto">
-        <li>ПРОФАКТУРА</li>
-        <li>БАРАЊЕ за одобрување на лизинг</li>
-        <li>Копија од ЛИЧНА КАРТА</li>
-        <li>ПОТВРДА од работодавецот за редовен работен однос</li>
-        <li>Административна забрана од плата од работодавецот</li>
-        <li>ИЗЈАВА за редовна отплата</li>
-        <li>Годишна даночна пријава (доколку барателот остварува дополнителни приходи)</li>
-        <li>Декларации за прием за бруто плата за последните 3 месеци</li>
-        <li>СОГЛАСНОСТ за извадок од Македонско Кредитно Биро</li>
-      </ul>
-      <p class="col-10 mx-auto"><strong>Документација треба да биде заверена со потпис и печат на овластеното лице!</strong></p>
-      <p class="col-10 mx-auto mb-0"><strong>AUTOWELT</strong> го задржува правото да побара дополнителна документација за разгледување на барањата за одобрување на лизинг.
-      </p>
-    </div>
+    <!--Add FizickiLica List-->
+    <FizickiLicaList/>
     <hr class="col-10 mx-auto">
      <div class="row">
        <div class="col-10 mx-auto">
@@ -73,14 +56,10 @@
 
 <script>
 import LizingList from "@/components/LizingList";
+import FizickiLicaList from "@/components/FizickiLicaList";
 export default {
 name: "AutoWeltBody",
-  components: {LizingList},
-  data(){
-  return{
-
-  }
-}
+  components: {FizickiLicaList, LizingList},
 }
 </script>
 
