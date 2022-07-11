@@ -21,27 +21,11 @@
     </div>
     <!-- Fixed Lizing List-->
     <LizingList/>
-    <!--Add FizickiLica List-->
+    <!--Fixed FizickiLica List-->
     <FizickiLicaList/>
+    <!--FixedPravniLica List-->
     <hr class="col-10 mx-auto">
-     <div class="row">
-       <div class="col-10 mx-auto">
-         <h2 class="fw-bold">Документација со барање за лизинг: ПРАВНИ ЛИЦА</h2>
-          <p>Со пополнето барање за одобрување на лизинг, <strong>профактура на добавувачот</strong> и <strong>прифатена лизинг понуда</strong>, потребно е да се приложат и:</p>
-       </div>
-        <ul class="col-9 mx-auto">
-          <li>Барање за одобрување на лизинг</li>
-          <li>Копија од тековна состојба, не постара од 6 недели</li>
-          <li>Завршна сметка (биланс на состојба и биланс на успех за последните две фискални години)</li>
-          <li>Аналитички заклучни листови кон завршните сметки за последните две години</li>
-          <li>Аналитички заклучен лист за тековната година со последен датум на книжење</li>
-          <li>Согласност за извадок од Македонско Кредитно Биро</li>
-          <li>Изјава за вистински сопственик </li>
-        </ul>
-        <p class="col-10 mx-auto"><strong>Документација треба да биде заверена со потпис и печат на овластеното лице!</strong></p>
-        <p class="col-10 mx-auto mb-0"><strong>AUTOWELT</strong> го задржува правото да побара дополнителна документација за разгледување на барањата за одобрување на лизинг.
-        </p>
-     </div>
+    <PravniLicaList/>
     <hr class="col-10 mx-auto">
     <div class="row">
       <p class="text-danger col-10 mx-auto">* НАПОМЕНА: ДОКОЛКУ ПОДАТОЦИТЕ КОИ ГИ ОСТАВАТЕ ПРИ ПРЕД-ОДОБРУВАЊЕТО
@@ -57,9 +41,10 @@
 <script>
 import LizingList from "@/components/LizingList";
 import FizickiLicaList from "@/components/FizickiLicaList";
+import PravniLicaList from "@/components/PravniLicaList";
 export default {
 name: "AutoWeltBody",
-  components: {FizickiLicaList, LizingList},
+  components: {PravniLicaList, FizickiLicaList, LizingList},
 }
 </script>
 
